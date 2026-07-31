@@ -1,10 +1,10 @@
-## Superstore Sales Performance Dashboard
+# Superstore Sales Performance Dashboard
 
 <p align="center">
   <img src="Screenshot%20Sales%20Dashboard.png" alt="US Sales Dashboard" width="1000"/>
 </p>
 
-## Project Overview
+# Project Overview
 
 This project presents an interactive Sales Performance Dashboard built using Microsoft Excel to analyze the sales performance of a retail superstore. The dashboard transforms raw transactional data into meaningful business insights that help evaluate sales trends, profitability, customer behavior, product performance, and regional performance.
 
@@ -12,7 +12,7 @@ The objective of this project is to demonstrate how Excel can be used as a Busin
 
 The dashboard allows users to explore different business metrics using slicers and visualizations, making it easier to identify high-performing regions, profitable product categories, customer segments, and sales trends over time.
 
-## Project Objectives
+# Project Objectives
 
 The primary objectives of this project are:
 
@@ -30,7 +30,7 @@ Build an interactive dashboard for quick business insights.
 
 Demonstrate advanced Excel dashboard development skills.
 
-## Dataset Information
+# Dataset Information
 The project uses the well-known Superstore Sales Dataset, which contains retail sales transactions from a fictional superstore.The dataset consists of approximately 9,998 sales transactions and includes detailed information about:
 
 -Orders
@@ -55,7 +55,7 @@ The project uses the well-known Superstore Sales Dataset, which contains retail 
 
 The dataset also includes a Returns table used for analyzing returned orders.
 
-## Dataset Structure
+# Dataset Structure
 The dataset contains the following worksheets:
 
 1.Orders
@@ -79,7 +79,7 @@ Stores intermediate Pivot Tables used to generate dashboard visualizations.
 7.Dashboard
 Contains the final interactive dashboard.
 
-## Data Fields
+# Data Fields
 The dataset includes the following business attributes:
 
 -Order ID
@@ -126,7 +126,7 @@ The dataset includes the following business attributes:
 
 -Profit Margin
 
-## Business Questions Answered
+# Business Questions Answered
 
 The dashboard answers several important business questions such as:
 -What is the total sales generated?
@@ -149,7 +149,7 @@ The dashboard answers several important business questions such as:
 
 -What is the relationship between sales and discounts?
 
-## Key Performance Indicators (KPIs)
+# Key Performance Indicators (KPIs)
 The dashboard highlights the following KPIs:
 
 **Total Sales** :
@@ -170,7 +170,7 @@ Measures the average profitability of each sale.
 **Sales and Discount Correlation** :
 Analyzes how discounts influence sales performance.
 
-## Dashboard Features
+# Dashboard Features
 The dashboard provides interactive analysis using Pivot Tables, Pivot Charts, and Slicers.
 
 Users can dynamically filter data and explore performance across different dimensions.
@@ -192,7 +192,7 @@ Interactive Slicers
 
 Dynamic Charts
 
-## Dashboard Visualizations
+# Dashboard Visualizations
 The dashboard includes multiple business visualizations designed to simplify decision-making.
 
 **Sales by Region** :
@@ -210,7 +210,7 @@ Displays the number of orders delivered through different shipping methods.
 **KPI Cards** :
 Provide a quick overview of important business metrics.
 
-## Data Preparation
+# Data Preparation
 Before building the dashboard, the following preprocessing steps were completed:
 
 Checked for duplicate records
@@ -227,9 +227,8 @@ Organized data for Pivot Tables
 
 Created intermediate KPI calculations
 
-Excel Features Used
-
-## The project demonstrates practical use of Microsoft Excel features including:
+# Excel Features Used
+The project demonstrates practical use of Microsoft Excel features including:
 
 Pivot Tables
 
@@ -253,7 +252,7 @@ Dashboard Design
 
 Interactive Reporting
 
-## Business Insights
+# Business Insights
 The dashboard helps identify several important business insights:
 
 Regional sales performance can be compared quickly.
@@ -268,7 +267,7 @@ Discount strategies can be evaluated using sales-discount correlation.
 
 Overall business profitability can be monitored through KPI cards.
 
-## Business Value
+# Business Value
 This dashboard enables managers and business stakeholders to:
 
 Monitor company performance.
@@ -283,7 +282,7 @@ Support data-driven decision making.
 
 Track important sales KPIs in one place.
 
-## Skills Demonstrated
+# Skills Demonstrated
 This project demonstrates proficiency in:
 
 Data Cleaning
@@ -308,7 +307,7 @@ Business Intelligence
 
 Data Interpretation
 
-## Tools Used
+# Tools Used
 Microsoft Excel
 
 Pivot Tables
@@ -319,7 +318,7 @@ Slicers
 
 Excel Functions
 
-## Dashboard Design Techniques
+# Dashboard Design Techniques
 1.Files Included
 
 2.File	Description :
@@ -327,7 +326,7 @@ Superstore Dataset.xlsx	Raw retail sales dataset
 
 3.Sales Dashboard.xlsx	Interactive Excel dashboard
 
-## Conclusion
+# Conclusion
 This project demonstrates how Microsoft Excel can be used as a powerful Business Intelligence tool for sales analytics. By combining data cleaning, KPI calculations, Pivot Tables, and interactive dashboard elements, the project delivers meaningful business insights that support informed decision-making. It showcases practical analytical skills applicable to retail, sales, and business intelligence roles.
 
 ## AUTHOR
