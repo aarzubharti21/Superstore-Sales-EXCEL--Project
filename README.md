@@ -1,6 +1,10 @@
 # Sales-Project
 ## Superstore Sales Performance Dashboard
 
+<p align="center">
+  <img src="Screenshot%20Sales%20Dashboard.png" alt="US Sales Dashboard" width="1000"/>
+</p>
+
 # Project Overview
 
 This project presents an interactive Sales Performance Dashboard built using Microsoft Excel to analyze the sales performance of a retail superstore. The dashboard transforms raw transactional data into meaningful business insights that help evaluate sales trends, profitability, customer behavior, product performance, and regional performance.
