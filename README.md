@@ -1,343 +1,72 @@
 # Superstore Sales Performance Dashboard
 
-# Project Overview
+## Overview
 
-This project presents an interactive Sales Performance Dashboard built using Microsoft Excel to analyze the sales performance of a retail superstore. The dashboard transforms raw transactional data into meaningful business insights that help evaluate sales trends, profitability, customer behavior, product performance, and regional performance.
+I am pleased to present the **Superstore Sales Dashboard**, developed using **Microsoft Excel** to analyze sales performance across different regions, categories, customers, and products. The dashboard converts raw sales data into interactive visualizations, helping stakeholders monitor business performance and make informed decisions.
 
-The objective of this project is to demonstrate how Excel can be used as a Business Intelligence tool for cleaning data, performing analysis, calculating KPIs, and creating an interactive dashboard for decision-making.
+## Problem Statement
 
-The dashboard allows users to explore different business metrics using slicers and visualizations, making it easier to identify high-performing regions, profitable product categories, customer segments, and sales trends over time.
+The objective of this project was to create an interactive sales dashboard that provides insights into business performance by tracking key metrics, identifying sales trends, and evaluating regional and product performance.
 
-# Project Objectives
+## Analysis Done
 
-The primary objectives of this project are:
+- **Data Preparation**
+  - Cleaned and organized the sales dataset for analysis.
 
-Analyze overall business performance using key performance indicators.
+- **KPI Development**
+  - Calculated Total Sales, Profit, Orders, and Quantity Sold.
 
-Monitor sales and profit across different regions.
+- **Sales Analysis**
+  - Analyzed sales across regions, categories, sub-categories, and customer segments.
 
-Identify the most profitable product categories and sub-categories.
+- **Trend Analysis**
+  - Evaluated sales trends to identify business growth and seasonal patterns.
 
-Compare customer segments based on sales contribution.
+- **Interactive Reporting**
+  - Created dynamic charts, KPIs, and slicers for better data exploration.
 
-Analyze shipping methods and customer purchasing behavior.
+## Dashboard
 
-Build an interactive dashboard for quick business insights.
+- **KPI Cards**
+  - Displays **Total Sales**, **Profit**, **Orders**, and **Quantity**.
 
-Demonstrate advanced Excel dashboard development skills.
+- **Sales Analysis**
+  - Compares sales by Region, Category, and Sub-Category.
 
-# Dataset Information
+- **Customer Analysis**
+  - Identifies customer and segment-wise performance.
 
-The project uses the well-known Superstore Sales Dataset, which contains retail sales transactions from a fictional superstore.The dataset consists of approximately 9,998 sales transactions and includes detailed information about:
+- **Trend Analysis**
+  - Tracks sales performance over time.
 
--Orders
+- **Interactive Filters**
+  - Allows users to filter data by Region, Category, Segment, and other dimensions.
 
--Customers
+## Recommendations
+Based on the dashboard analysis, the following recommendations can help improve business performance:
 
--Products
+- **Focus on High-Performing Products**
+  - Increase inventory and marketing efforts for products that consistently generate high sales and profit.
 
--Sales
+- **Improve Low-Performing Categories**
+  - Review pricing, promotional campaigns, and product placement to boost sales of underperforming categories.
 
--Profit
+- **Strengthen Regional Performance**
+  - Identify regions with lower sales and implement targeted marketing and sales strategies to improve performance.
 
--Discounts
+- **Optimize Inventory Management**
+  - Use sales trends and demand patterns to maintain optimal stock levels and reduce inventory costs.
 
--Shipping
+- **Enhance Customer Retention**
+  - Develop loyalty programs and personalized offers to encourage repeat purchases from existing customers.
 
--Regions
+- **Monitor Business KPIs Regularly**
+  - Continuously track sales, profit, and order trends to support data-driven decision-making and improve overall business performance.
 
--Categories
+## Conclusion
 
--Time
+The **Superstore Sales Dashboard** provides a clear and interactive view of business performance through key metrics and visualizations. It enables stakeholders to analyze sales trends, monitor performance, and make informed decisions for business growth.
 
-The dataset also includes a Returns table used for analyzing returned orders.
+## Author
+Aarzu Bharti 
 
-# Dataset Structure
-
-The dataset contains the following worksheets:
-
-1.**Orders**
-
-Contains the complete transaction-level sales data including customer details, product information, sales amount, quantity sold, discounts, profits, and delivery information.
-
-2.**Returns**
-
-Contains returned orders which can be linked with the Orders table using Order ID.
-
-3.**KPI**
-
-Lists all business KPIs used throughout the dashboard.
-
-4.**Data Dictionary**
-
-Provides descriptions and data types for every field in the dataset.
-
-5.**KPI Calculation**
-
-Contains formulas and calculations used for dashboard metrics.
-
-6.**Charts**
-
-Stores intermediate Pivot Tables used to generate dashboard visualizations.
-
-7.**Dashboard**
-
-Contains the final interactive dashboard.
-
-# Data Fields
-
-The dataset includes the following business attributes:
-
--Order ID
-
--Order Date
-
--Ship Date
-
--Delivery Days
-
--Ship Mode
-
--Customer ID
-
--Customer Name
-
--Segment
-
--Country
-
--City
-
--State
-
--Postal Code
-
--Region
-
--Product ID
-
--Category
-
--Sub-Category
-
--Product Name
-
--Sales
-
--Quantity
-
--Discount
-
--Profit
-
--Profit Margin
-
-# Business Questions Answered
-
-The dashboard answers several important business questions such as:
-
--What is the total sales generated?
-
--Which region generates the highest sales?
-
--Which customer segment contributes the most revenue?
-
--Which product categories are the most profitable?
-
--Which sub-categories perform the best?
-
--What is the average discount offered?
-
--What is the average profit margin?
-
--Which shipping mode is used most frequently?
-
--How does sales vary across different regions?
-
--What is the relationship between sales and discounts?
-
-# Key Performance Indicators (KPIs)
-
-The dashboard highlights the following KPIs:
-
-1.**Total Sales** : Displays the total revenue generated from all customer orders.
-
-2.**Total Profit** :Measures the total profit earned after accounting for discounts and costs.
-
-3.**Total Quantity Sold** :Shows the total number of products sold.
-
-4.**Average Discount** :Calculates the average discount offered across all transactions.
-
-5.**Average Profit Margin** :Measures the average profitability of each sale.
-
-6.**Sales and Discount Correlation** :Analyzes how discounts influence sales performance.
-
-# Dashboard Features
-
-The dashboard provides interactive analysis using Pivot Tables, Pivot Charts, and Slicers.
-
-Users can dynamically filter data and explore performance across different dimensions.
-
-The dashboard includes:
-
-**KPI Cards**
-
-**Regional Sales Analysis**
-
-**Sales by Customer Segment**
-
-**Sales by Product Category**
-
-**Sales by Sub-Category**
-
-**Shipping Mode Distribution**
-
-**Interactive Slicers**
-
-**Dynamic Charts**
-
-# Dashboard Visualizations
-The dashboard includes multiple business visualizations designed to simplify decision-making.
-
-1.**Sales by Region** :
-Compares total sales generated across different geographical regions.
-
-2.**Customer Segment Analysis** :
-Shows revenue contribution from Consumer, Corporate, and Home Office customers.
-
-3.**Category Performance** :
-Compares sales generated by Furniture, Office Supplies, and Technology.
-
-4.**Shipping Mode Distribution** :
-Displays the number of orders delivered through different shipping methods.
-
-5.**KPI Cards** :
-Provide a quick overview of important business metrics.
-
-# Data Preparation
-
-Before building the dashboard, the following preprocessing steps were completed:
-
-Checked for duplicate records
-
-Verified missing values
-
-Standardized date formats
-
-Created Delivery Days column
-
-Calculated Profit Margin
-
-Organized data for Pivot Tables
-
-Created intermediate KPI calculations
-
-# Excel Features Used
-
-The project demonstrates practical use of Microsoft Excel features including:
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-Excel Formulas
-
-IF Functions
-
-SUM
-
-AVERAGE
-
-COUNT
-
-Conditional Formatting
-
-Dashboard Design
-
-Interactive Reporting
-
-# Business Insights
-
-The dashboard helps identify several important business insights:
-
-Regional sales performance can be compared quickly.
-
-Product categories contributing the highest revenue become immediately visible.
-
-Customer segments generating maximum business can be identified.
-
-Shipping preferences of customers are easily analyzed.
-
-Discount strategies can be evaluated using sales-discount correlation.
-
-Overall business profitability can be monitored through KPI cards.
-
-# Business Value
-
-This dashboard enables managers and business stakeholders to:
-
-Monitor company performance.
-
-Identify profitable business areas.
-
-Improve product strategy.
-
-Optimize discount policies.
-
-Support data-driven decision making.
-
-Track important sales KPIs in one place.
-
-# Skills Demonstrated
-
-This project demonstrates proficiency in:
-
-Data Cleaning
-
-Business Analytics
-
-Excel Dashboard Development
-
-Data Visualization
-
-KPI Design
-
-Sales Analytics
-
-Retail Analytics
-
-Interactive Reporting
-
-Pivot Table Analysis
-
-Business Intelligence
-
-Data Interpretation
-
-# Tools Used
-
-Microsoft Excel
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-Excel Functions
-
-# Dashboard Design Techniques
-
-1.Files Included
-
-2.File	Description : Superstore Dataset.xlsx	Raw retail sales dataset
-
-3.Sales Dashboard.xlsx	Interactive Excel dashboard
-
-# Conclusion
-This project demonstrates how Microsoft Excel can be used as a powerful Business Intelligence tool for sales analytics. By combining data cleaning, KPI calculations, Pivot Tables, and interactive dashboard elements, the project delivers meaningful business insights that support informed decision-making. It showcases practical analytical skills applicable to retail, sales, and business intelligence roles.
-
-## AUTHOR
-## AARZU BHARTI
